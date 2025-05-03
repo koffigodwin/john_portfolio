@@ -1,0 +1,19 @@
+.question{
+    margin: 10px;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.about-text{
+    margin-left: 10px;
+}
+
+@media screen and (min-width: 700px){
+    .question{
+        margin: 10px;
+        font-size: 2rem;
+        font-weight: 600;
+    }
+    .about-text{
+        margin-left: 10px;
+    }
+}
