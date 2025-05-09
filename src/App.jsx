@@ -1,6 +1,6 @@
 import React from 'react'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import {About, Home, Homelayout, Project, Skills, Units} from '../src/pages/indexpage.js'
+import {About, Home, Homelayout, Project, Skills, Units, Waste} from '../src/pages/indexpage.js'
 
 const App = () => {
   const router = createBrowserRouter([
@@ -30,7 +30,17 @@ const App = () => {
            errorElement: <div>404</div>,
           },
           {
-            path: '/units',
+            path: '/works',
+            element: <Units/>,
+            errorElement: <div>404</div>,    
+          },
+          {
+            path: '/waste',
+            element: <Waste/>,
+            errorElement: <div>404</div>,    
+          },
+          {
+            path: '/waste',
             element: <Units/>,
             errorElement: <div>404</div>,    
           }

@@ -19,7 +19,7 @@ const Project = () => {
           as a wristband, ring, or patch and is powered by a rechargeable lithium battery. 
           By incorporating features like haptic feedback and optional additional sensors—such 
           as heart rate or skin temperature monitors—it offers a comprehensive, user-friendly 
-          solution for mental health awareness, daily stress tracking, and biofeedback therapy.
+          solution for mental health awareness, daily stress tracking, and biofeedback therapy.
         </p>
         <div className="carousel w-full">
   <div id="slide2" className="carousel-item relative w-full">

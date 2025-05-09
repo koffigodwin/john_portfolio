@@ -18,7 +18,8 @@ const Sidebar = () => {
         <li><a href='/about'>About</a></li>
         <li><a href='/skills'>Skills</a></li>
         <li><a href='/project'>Projects</a></li>
-        <li><a href='/contact'>Contact</a></li>
+        <li><a href='/works'>Works</a></li>
+        <li><a href='/waste'>Waste</a></li>
         </ul>
       </div>
       <div className="themes-controller">

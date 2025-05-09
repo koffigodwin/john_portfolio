@@ -19,8 +19,9 @@ const Navbar = () => {
         <li><a href='/'>Home</a></li>
         <li><a href='/about'>About The Course</a></li>
         <li><a href='/project'>Project</a></li>
-        <li><a href='/units'>Works</a></li>
+        <li><a href='/works'>Works</a></li>
         <li><a href='/skills'>Lab</a></li>
+        <li><a href='/waste'>Waste</a></li>
         </ul>
       </div>
       <div className="theme-controller">
